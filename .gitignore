@@ -9,7 +9,7 @@
 /coverage
 
 # next.js
-/.next/
+
 /out/
 
 /medium-jha/node_modules/
