@@ -12,6 +12,8 @@
 /.next/
 /out/
 
+/medium-jha/node_modules/
+
 # production
 /build
 
