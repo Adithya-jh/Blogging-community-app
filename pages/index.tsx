@@ -26,7 +26,7 @@ export default function Home ({posts} : Props) {
           <div className="px-10 space-y-5">
 
             <h1 className="text-6xl max-w-xl font-serif  ">
-              <span className="underline decoration-black decoration-4">Medium</span>  is a place to read write and connect
+              <span className="underline decoration-black decoration-4">Ideate</span>  is a place to read write and connect
             </h1>
 
             <h2> It is easy and free to post your thinking and Ideas and get inspired</h2>
