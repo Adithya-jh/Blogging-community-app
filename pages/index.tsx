@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Header from '../components/Header'
 import {sanityClient,urlFor} from '../sanity'
 import { Post } from '../typings'
+import Ideate from '../components/IDEATE.png'
 
 interface Props{
   posts: [Post]
@@ -33,7 +34,8 @@ export default function Home ({posts} : Props) {
 
           </div>
 
-          <img className="hidden md:inline-flex h-32 lg:h-full  bg-yellow-400" src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png"></img>
+          <Image src={Ideate} className="hidden md:inline-flex h-32 lg:h-full  bg-yellow-400"/>
+          {/* <img className="hidden md:inline-flex h-32 lg:h-full  bg-yellow-400" src="https://www.canva.com/design/DAFBcDwarho/62cXAkPk1kXa2xjN_TsUUw/view?utm_content=DAFBcDwarho&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"></img> */}
 
           <div></div>
      </div>

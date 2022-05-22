@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
+import Ideate from './IDEATE.png'
 
 function Header() {
   return (
@@ -8,7 +9,8 @@ function Header() {
         <div className="flex items-center space-x-5">
             <Link href="/">
                     {/* <Image src="https://miro.medium.com/max/1200/1*jfdwtvU6V6g99q3G7gq7dQ.png" className='w-44 object-contain' layout='fill'/> */}
-                    <img src="https://miro.medium.com/max/1200/1*jfdwtvU6V6g99q3G7gq7dQ.png" className='w-44 object-contain cursor-pointer' />
+                    {/* <img src="https://miro.medium.com/max/1200/1*jfdwtvU6V6g99q3G7gq7dQ.png" className='w-44 object-contain cursor-pointer' /> */}
+                    <Image src={Ideate} className='w-44 object-contain cursor-pointer' height={60} width={60} />
             </Link>
 
             <div className="hidden md:inline-flex items-center space-x-5 cursor-pointer">
