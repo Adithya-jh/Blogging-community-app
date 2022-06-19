@@ -23,7 +23,9 @@ function Header() {
 
         <div className="flex items-center space-x-5 text-yellow-600 cursor-pointer">
             <h3>Sign In</h3>
-            <h3 className='border px-4 py-1 rounded-full border-yellow-500'>Get Started</h3>
+            <Link href={'https://blog-jha.sanity.studio'}>
+            <a className='border px-4 py-1 rounded-full border-yellow-500' target='_blank'>Get Started</a>
+            </Link>
       
         </div>
       </div>
